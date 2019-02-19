@@ -3,7 +3,7 @@ if (promise !== undefined) {
   promise.then(_ => {
     // spin started
   }).catch(error => {
-    pic.addEventListener('click', function() {
+    pic.addEventListener('click', () => {
       audio.play();
     });
   });
