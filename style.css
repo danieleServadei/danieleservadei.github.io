@@ -11,6 +11,10 @@ p {
     font-weight: bold;
 }
 
+img {
+    width: 20%;
+}
+
 #pic {
     -webkit-animation: rotation 2s infinite linear;
     border-radius: 30%;
