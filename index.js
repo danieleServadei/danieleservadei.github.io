@@ -10,6 +10,6 @@ pic.addEventListener('click', () => {
   }
 })
 
-// window.onbeforeunload = () => {
-//   return true
-// }
+window.onbeforeunload = () => {
+  return true
+}
