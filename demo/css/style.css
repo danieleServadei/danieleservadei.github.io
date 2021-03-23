@@ -15,6 +15,7 @@ html {
   top: 5rem;
   right: 5rem;
   width: 10rem;
+  cursor: pointer;
 }
 
 .noselect {
@@ -57,7 +58,6 @@ body {
   word-spacing: 100vw;
   text-transform: uppercase;
   color: #ecf0f1;
-  cursor: pointer;
 }
 
 .content {
