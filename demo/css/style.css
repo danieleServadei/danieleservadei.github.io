@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.sfera-logo {
+  position: fixed;
+  top: 5rem;
+  right: 5rem;
+  width: 10rem;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+@font-face {
+  font-family: "Trapper";
+  font-weight: 400;
+  src: url("../fonts/trapper-john.ttf");
+}
+
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-family: 'Trapper', sans-serif;
+  font-weight: 800;
+}
+
+.header {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/sferaBackground.jpg");
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+.primary-heading {
+  padding: 15rem;
+  font-size: 27rem;
+  line-height: .9;
+  word-spacing: 100vw;
+  text-transform: uppercase;
+  color: #ecf0f1;
+  cursor: pointer;
+}
+
+.content {
+  padding: 15rem;
+  font-size: 5rem;
+  color: #ecf0f1;
+  background-color: #000;
+}
+
+.content-text h6 {
+  font-size: 8rem;
+  text-transform: uppercase;
+  color: #ecf0f1;
+  background-color: #000;
+}
+
+.content-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  color: #ecf0f1;
+  background-color: #000;
+  margin-bottom: 10rem;
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  border-radius: 3rem;
+  text-align: left;
+}
+
+table {
+  font-family: 'Roboto', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+th {
+  font-family: 'Trapper', sans-serif;
+  color: #9b59b6;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+firma {
+  font-family: 'Trapper', sans-serif;
+  color: #9b59b6;
+}
