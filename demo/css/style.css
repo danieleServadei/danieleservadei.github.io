@@ -48,7 +48,6 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   margin-bottom: 0;
-  object-fit: cover;
 }
 
 .primary-heading {
