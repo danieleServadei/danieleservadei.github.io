@@ -6,7 +6,6 @@
 
 html {
   height: 100%;
-  width: 100%;
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
@@ -44,15 +43,17 @@ body {
 
 .header {
   height: 100%;
-  width: 100%;
   background-image: url("../images/sferaBackground.jpg");
+  background-position: center top;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   margin-bottom: 0;
+  object-fit: cover;
 }
 
 .primary-heading {
   padding: 15rem;
-  font-size: 27rem;
+  font-size: 11vw;
   line-height: .9;
   word-spacing: 100vw;
   text-transform: uppercase;
@@ -80,6 +81,10 @@ body {
   color: #ecf0f1;
   background-color: #000;
   margin-bottom: 10rem;
+}
+
+.table {
+  overflow-x: auto;
 }
 
 table, td, th {  
