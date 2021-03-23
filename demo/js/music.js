@@ -1,3 +1,3 @@
 logo.addEventListener('click', () => {
-  audio.play()
+  audio.paused ? audio.play() : audio.pause()
 })
