@@ -1,7 +1,7 @@
 const image = document.getElementById("pic")
 const pizza = document.getElementById("pizza")
 
-pic.addEventListener('click', () => {
+image.addEventListener('click', () => {
   if (audio.paused) {
     audio.play()
     image.src = "./images/napoli.jpg"

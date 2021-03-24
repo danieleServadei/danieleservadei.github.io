@@ -7,7 +7,7 @@ body {
 
 p {
   margin-top: 50px;
-  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-family: serif;
   font-weight: bold;
 }
 
@@ -37,7 +37,7 @@ img {
 
 .flier > * {
   /* Adjust animation duration to change the element’s speed */
-  animation: fly 40s linear infinite;
+  animation: fly 1s linear infinite;
   pointer-events: none !important;
 	top: 0;
 	left: 0;
