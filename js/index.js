@@ -4,11 +4,11 @@ const pizza = document.getElementById("pizza")
 pic.addEventListener('click', () => {
   if (audio.paused) {
     audio.play()
-    image.src = "./napoli.jpg"
+    image.src = "./images/napoli.jpg"
     pizza.style.visibility = "visible"
   } else {
     audio.pause()
-    image.src = "./nyan.png"
+    image.src = "./images/nyan.png"
     pizza.style.visibility = "hidden"
   }
 })
